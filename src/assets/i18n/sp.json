@@ -1,0 +1,17 @@
+{
+
+    "Home":{
+        "girls":"Chicas",
+        "Mens":"Chicos",
+        "spanish":"Español",
+        "english":"Ingles",
+        "categories":"Categorias",
+        "search":"Buscar",
+        "signUp":"Registrate",
+        "login":"Ingresar"
+
+    },
+     "selected_user":{
+        "send_message":"Envia un mensaje"
+    }
+}

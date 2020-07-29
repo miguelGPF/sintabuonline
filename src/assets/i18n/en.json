@@ -1,0 +1,16 @@
+{
+
+    "Home":{
+        "girls":"Girls",
+        "Mens":"Boys",
+        "spanish":"Spanish",
+        "english":"English",
+        "categories":"Categories",
+        "search":"Search",
+        "signUp":"Sign up",
+        "login":"Login"
+    },
+    "selected_user":{
+        "send_message":"Send message"
+    }
+}

@@ -1,0 +1,31 @@
+<div class="general-cont">
+
+    <div class="general-navbar">
+        <app-navbar (openSignUp)="signUp=$event" (sex)="sex=$event" ></app-navbar>
+    </div>
+
+    <div class="girls">
+
+        <!-- <label>
+            Date
+            <input id="4" class="input" [owlDateTimeTrigger]="dt" [owlDateTime]="dt" formControlName="dateIni">
+            <owl-date-time #dt [startAt]="startAt"></owl-date-time>
+        </label>
+     -->
+        <app-girls *ngIf="sex=='girls'" (open_user)="open_user_receive($event)"></app-girls>
+        <app-mens *ngIf="sex=='mens'" (open_user)="open_user_receive($event)"></app-mens>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<app-validation-age *ngIf="validateAge" (closeModale)="validateAge=$event"></app-validation-age>
+<app-sign-up *ngIf="signUp" (closeModaleEmit)="signUp=$event"></app-sign-up>
+<app-select-user *ngIf="select_user" (close)="select_user=$event" ></app-select-user>
+
+

@@ -1,0 +1,71 @@
+<div class="modal is-active">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+
+    <div [ngClass]="{'animate__animated animate__zoomOut':closeModaleAnimated} " class="cont-signUp ">
+    <div class="animate__animated animate__zoomIn" style="height: 100%;width: 100%;display: flex;">
+        <div class="img-cont">
+
+            <div class="img-video">
+                <img src="assets/iconos/sintrabu logo final-02.jpg" style="-webkit-border-top-left-radius: 17px;">
+
+            </div>
+
+            <div class="presents">
+
+                <div class="present-object">
+
+                    <i class="fas fa-gift"></i>
+                </div>
+
+                <div class="present-object">
+
+                    <i class="fas fa-gift"></i>
+                </div>
+                <div class="present-object">
+
+                    <i class="fas fa-gift"></i>
+                </div>
+                <div class="present-object">
+
+                    <i class="fas fa-gift"></i>
+                </div>
+
+                
+            </div>
+
+            
+
+        </div>
+        <div class="signUpValidate">
+           
+            <div class="messages">
+
+
+            </div>
+
+            <div class="send-message">
+
+                <div class="imput-message">
+
+                    <input type="text" class="input is-rounded" placeholder="{{'selected_user.send_message'| translate}}">
+                </div>
+
+                <div class="btn-message">
+                    <i class="fas fa-share"></i>
+
+
+                </div>
+                
+                    
+                
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+    </div>
+    <button (click)="closeModale()"class="modal-close is-large " aria-label="close"></button>
+  </div>

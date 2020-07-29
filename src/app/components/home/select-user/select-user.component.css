@@ -1,0 +1,123 @@
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cont-signUp {
+    height: 80vh;
+    width: 95%;
+    border-radius: 20px;
+    display: flex;
+}
+
+.img-cont {
+    width: 70%;
+    background: #B91F07;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    
+}
+.signUpValidate {
+    width: 30%;
+    background: #FA846B; 
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+}
+.messages{
+    height: calc(100% - 65px);
+}
+.img-video {
+    height: calc(100% - 51px);
+    
+    display: flex;
+}
+.presents{
+    height: 51px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.present-object {
+    width: 10.3%;
+    display: flex;
+    color : black;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-message{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 22px;
+}
+.send-message {
+    height: 65px;
+    display: flex;
+    padding: 17px;
+    justify-content: center;
+    align-items: center;
+}
+.signUpPeople{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 79px;
+
+}
+.imput-message {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-message{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    color: #B91F07;
+}
+
+.btn-message:hover{
+    cursor: pointer;
+}
+
+
+.signUpGirl {
+
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+
+}
+.btn{
+    border-width: 0;
+    position: relative;
+    border-radius: 10px;
+    width: 51%;
+    font-weight: bold;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+    background: black;
+    color : #B91F07;
+}
+.btn:hover{
+    border: 1.5px solid black !important;
+    background-color: white;
+    color : #B91F07; 
+}
+
+.options {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+.modale-cont-form {
+
+    height: 100%;
+    width: 100%;
+    background: #B91F07;
+    border-radius: 15px;
+}
+
+.btn{
+    border-width: 0;
+    position: relative;
+    border-radius: 10px;
+    width: 51%;
+    font-weight: bold;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+    background: black;
+    color : #B91F07;
+}
+.btn:hover{
+    border: 1.5px solid black !important;
+    background-color: white;
+    color : black; 
+}
+
+.logo{
+    height: 10%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-login{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-group{
+
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}

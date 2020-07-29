@@ -1,0 +1,89 @@
+<nav class="navbar navbar-color" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+          <img src="assets/iconos/navbar.png" style="height: 75px;width: 83px;">
+      </a>
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a [ngClass]="{'focus-select':sex_selected=='girls'}"(click)="categoryOfSex('girls')"class="navbar-item">
+          {{'Home.girls' | translate}}
+        </a>
+  
+        <a [ngClass]="{'focus-select':sex_selected=='mens'}" (click)="categoryOfSex('mens')" class="navbar-item">
+          {{'Home.Mens' | translate}}
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            {{'Home.categories' | translate}}
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              a
+            </a>
+            <a  class="navbar-item">
+              a
+            </a>
+            <a class="navbar-item">
+              a
+            </a>            
+            <a class="navbar-item">
+              a
+            </a>           
+            <a class="navbar-item">
+              a
+            </a>            
+            <a class="navbar-item">
+              a
+            </a>             
+          </div>
+        </div>
+
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a (click)="changeLanguage('sp')"class="navbar-item">
+              {{'Home.spanish' | translate}}
+            </a>
+            <a (click)="changeLanguage('en')" class="navbar-item">
+              {{'Home.english' | translate}}
+            </a>
+            
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+
+            <div style="margin-right: 12px;margin-bottom: 9px;">
+              <p class="control has-icons-left">
+                <input class="input is-rounded" type="text" placeholder="{{'Home.search'| translate}}">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-search"></i>
+                </span>
+              </p>
+            </div>
+            
+              <button (click)="signUp()" class="button btn"> {{'Home.signUp'|translate}}</button>
+         
+              <button (click)="login()"class="button btn"> {{'Home.login'|translate}}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>

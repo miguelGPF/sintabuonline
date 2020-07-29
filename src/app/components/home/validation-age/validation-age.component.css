@@ -1,0 +1,42 @@
+.general-cont {
+    width: 503px;
+    height: 461px;
+    border-radius: 5%;
+    background: #B91F07;
+}
+.modal-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.message-cont{
+    
+    height: 70%;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.validate-btn {
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn{
+    border-width: 0;
+    position: relative;
+    border-radius: 10px;
+    width: 51%;
+    font-weight: bold;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+    background: black;
+    color : #B91F07;
+}
+.btn:hover{
+    border: 1.5px solid black !important;
+    background-color: white;
+    color : black; 
+}

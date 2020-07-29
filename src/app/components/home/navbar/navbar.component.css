@@ -1,0 +1,55 @@
+.navbar-color {
+    background: black ;
+    color: white !important;
+}
+a{
+    color : white;
+    background: black;
+    font-weight: bold;
+}
+a:hover {
+    color : white;   
+}
+.navbar-item:hover{
+    color : white;   
+    background: black;
+}
+
+.navbar-link{
+    background: black !important;
+}
+.navbar-dropdown {
+    background: black;
+}
+
+.navbar-item img {
+    /* max-height: 1.75rem; */
+    max-height: none;
+}
+.focus-select {
+    color: #B91F07;
+}
+
+.btn{
+
+
+    border-width: 0;
+    position: relative;
+    border-radius: 10px;
+    background-color: #B91F07;
+    font-weight: bold;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+    background: #B91F07;
+    color : black;
+}
+.navbar-link:not(.is-arrowless)::after {
+
+    border-color: #B91F07
+}
+
+.btn:hover {
+    border: 2px solid #B91F07!important;
+    background-color: white;
+    color : #B91F07;
+}
+

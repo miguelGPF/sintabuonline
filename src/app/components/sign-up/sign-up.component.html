@@ -1,0 +1,28 @@
+<div class="modal is-active">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+
+    <div [ngClass]="{'animate__animated animate__zoomOut':closeModaleAnimated} " class="cont-signUp ">
+    <div class="animate__animated animate__zoomIn" style="height: 100%;width: 100%;display: flex;">
+        <div class="img-cont"></div>
+        <div class="signUpValidate">
+            <div *ngIf="!signUpGirl && !signUpPeople" class="options">
+                <div class="signUpPeople">
+                    <button (click)="openSignUpPeople()" class="button btn">Cliente</button>
+                </div>
+                <div class="signUpGirl">
+                    <button (click)="openSignUpGirls()" class="button btn">Chica Web Cam</button>
+                </div>
+            </div>
+            
+                <app-people-sign-up *ngIf="signUpPeople"></app-people-sign-up> 
+            
+            
+                <app-girls-sign-up *ngIf="signUpGirl"></app-girls-sign-up>
+            
+        </div>
+    </div>
+</div>
+    </div>
+    <button (click)="closeModale()"class="modal-close is-large " aria-label="close"></button>
+  </div>

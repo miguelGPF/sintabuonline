@@ -1,0 +1,27 @@
+.general-login{
+    background: rgba(10,10,10,.86);
+    height: 100vh;
+    display: flex;
+}
+.img-cont {
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.modale-cont-form {
+
+    height: 70%;
+    width: 68%;
+}
+.form-cont {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}

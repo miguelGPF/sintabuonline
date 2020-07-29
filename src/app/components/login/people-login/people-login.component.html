@@ -1,0 +1,51 @@
+
+
+  <div class="modale-cont-form animate__animated animate__zoomIn">
+
+    <div class="logo">StreamVideo</div>
+
+    <div class="form-login"> 
+
+        <form >
+
+            <div class="field">
+                <label class="label">Usurio</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-success" type="text" placeholder="User">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <!-- <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                  </span> -->
+                </div>
+                <!-- <p class="help is-success">This username is available</p> -->
+              </div>
+              
+              <div class="field">
+                <label class="label">Contraseña</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-success" type="password" placeholder="Password">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-key"></i>
+                  </span>
+                  <!-- <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                  </span> -->
+                </div>
+                <!-- <p class="help is-success">This username is available</p> -->
+              </div>
+        </form>
+
+
+
+    </div>
+
+    <div class="btn-group">
+        <button [ngClass]="{'is-loading animate__animated animate__rubberBand':loader}" (click)=" login()"class="button btn">Ingresar</button>
+
+    </div>
+
+
+</div>
+
